@@ -95,16 +95,34 @@
                 android:layout_below="@+id/listaConversion"
                 android:background="@drawable/button"
                 android:text="Agregar"
+                android:textAllCaps="false"
                 android:textColor="#fff"
                 android:textSize="40px"
-                android:textAllCaps="false"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.931"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.723"
+                app:layout_constraintVertical_bias="0.68"
                 tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/btnExportar"
+                android:layout_width="179dp"
+                android:layout_height="46dp"
+                android:layout_below="@+id/listaConversion"
+                android:background="@drawable/button"
+                android:text="Exportar"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="40px"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.543"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.934"
+                tools:ignore="HardcodedText,UnknownId,UnknownIdInLayout" />
 
             <Button
                 android:id="@+id/btnBuscar"
@@ -113,15 +131,15 @@
                 android:layout_below="@+id/listaConversion"
                 android:background="@drawable/button"
                 android:text="Buscar"
-                android:textColor="#fff"
                 android:textAllCaps="false"
+                android:textColor="#fff"
                 android:textSize="40px"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.125"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.723"
+                app:layout_constraintVertical_bias="0.68"
                 tools:ignore="HardcodedText,UnknownId,UnknownIdInLayout" />
 
 

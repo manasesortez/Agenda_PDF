@@ -18,6 +18,8 @@ public class Add_Contact extends AppCompatActivity {
     EditText nombre, telefono;
     Button botonAgregar, botonRegresar;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
